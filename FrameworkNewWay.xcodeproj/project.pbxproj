@@ -11,6 +11,7 @@
 		81B7517B2A41E9D5006A8977 /* FrameworkNewWay.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81B751702A41E9D5006A8977 /* FrameworkNewWay.framework */; };
 		81B751802A41E9D5006A8977 /* FrameworkNewWayTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7517F2A41E9D5006A8977 /* FrameworkNewWayTests.swift */; };
 		81B751812A41E9D5006A8977 /* FrameworkNewWay.h in Headers */ = {isa = PBXBuildFile; fileRef = 81B751732A41E9D5006A8977 /* FrameworkNewWay.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		81B7518B2A41E9F6006A8977 /* Validate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81B7518A2A41E9F6006A8977 /* Validate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +30,7 @@
 		81B751742A41E9D5006A8977 /* FrameworkNewWay.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = FrameworkNewWay.docc; sourceTree = "<group>"; };
 		81B7517A2A41E9D5006A8977 /* FrameworkNewWayTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FrameworkNewWayTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		81B7517F2A41E9D5006A8977 /* FrameworkNewWayTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FrameworkNewWayTests.swift; sourceTree = "<group>"; };
+		81B7518A2A41E9F6006A8977 /* Validate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Validate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			children = (
 				81B751732A41E9D5006A8977 /* FrameworkNewWay.h */,
 				81B751742A41E9D5006A8977 /* FrameworkNewWay.docc */,
+				81B7518A2A41E9F6006A8977 /* Validate.swift */,
 			);
 			path = FrameworkNewWay;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81B751752A41E9D5006A8977 /* FrameworkNewWay.docc in Sources */,
+				81B7518B2A41E9F6006A8977 /* Validate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,6 +398,7 @@
 		81B751882A41E9D5006A8977 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -409,6 +414,7 @@
 		81B751892A41E9D5006A8977 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
